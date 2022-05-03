@@ -1,0 +1,19 @@
+{
+  "name": "follow-cleaner",
+  "version": "0.0.1",
+  "description": "Clean your follows and followers from inactive users",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kacper Betański <kacper@betanski.dev> (https://betanski.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "masto": "^4.3.1",
+    "yargs": "^17.4.1"
+  }
+}
